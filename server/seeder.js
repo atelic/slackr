@@ -7,7 +7,7 @@ Meteor.startup(function () {
     });
 
     // Uncomment to clear messages before seeding
-    Messages.remove({});
+    // Messages.remove({});
 
     // Seed some messages
     if (Messages.find().count() === 0) {
